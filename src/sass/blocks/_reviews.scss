@@ -1,0 +1,43 @@
+.reviews {
+    margin-bottom: 71px;
+    &__wrapper {
+        margin-top: 70px;
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__item {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        } 
+        &__foto {
+            width: 169px;
+            height: 169px;
+    }
+    &__descr {
+        max-width: 656px;
+        margin-left: 62px;
+    }
+    &__subtitle {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__quantity {
+        margin-top: 14px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: normal;
+    }
+    &__text {
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+}
