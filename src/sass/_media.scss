@@ -47,6 +47,14 @@
 			margin: 25px;
 		}
 	}
+	.reviews {
+		width: 768px;
+		padding: 0 20px 0 20px;
+		&__descr {
+			margin-left: 30px;
+		}
+		
+	}
 }
 
 @media (max-width: 767px) {
@@ -147,6 +155,30 @@
 			font-size: 15px;
 		}
 	}
+	.reviews {
+		width: 576px;
+		&__wrapper {
+			:last-child {
+				margin-bottom: 0;
+			}
+		}
+		&__item {
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		&__descr {
+			margin-top: 20px;
+			max-width: 556px;
+			margin-left: 0;
+		}
+		&__subtitle {
+			text-align: center;
+		}
+		&__quantity {
+			text-align: center;
+		}
+	}
 }
 
 @media (max-width: 575px) {
@@ -241,6 +273,7 @@
 	}
 	.catalog {
 		margin-top: 30px;
+		padding-bottom: 20px;
 		.title {
 			font-size: 20px;
 		}
@@ -251,6 +284,14 @@
 			width: 150px;
 			font-size: 10px;
 			margin-top: 10px;
+		}
+	}
+	.reviews {
+		margin-top: 0;
+		width: 320px;
+		&__text {
+			font-size: 12px;
+			text-align: center;
 		}
 	}
 }
